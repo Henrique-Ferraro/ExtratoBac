@@ -1,0 +1,14 @@
+Para criar um db para mockar os dados devemos:
+
+1º - Instalar o Json Server
+npm install -g json-server
+
+2º - Criar uma pasta onde será armazenada o db.json
+Colocar os dados mockados
+
+3º - Startar o servidor
+json-server --watch db.json
+
+Para criar um modelo a partir do Json, vamos acessar a ferramenta "Json to TS", vamos copiar
+os dados mockados e inserir no site. Vamos criar uma pasta models e um componente,
+neste caso criamos transferencia
